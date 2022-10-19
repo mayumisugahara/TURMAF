@@ -1,9 +1,43 @@
-h1 {
-  text-align: center;background: #CCCCCC"
-}
-p { 
-  text-align: center;       
- }
 body {
-  background: #CCCCCC    
+    background: #CCCCCC;
 }
+
+#Banner {
+    width: 100%;
+    height: 200px
+}
+
+h1{
+    text-align: center;
+    height: 150px;
+    border: 10px solid #000025;
+    padding-top: 20px;
+    margin: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+#dickerson {
+    font-size: 20px;
+}
+
+strong {
+    color: darkblue;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+}
+
+.principal {
+    background: #CCCCCC;
+}
+
+h2 {
+    text-align: center
