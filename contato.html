@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="YTF-8">
+		<title>contato - Academia Alura</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="index.html">
+        <link rel="stylesheet" href="produtos.html">
+		<link rel="stylesheet" href="contato.html">
+	</head>
+	<body>
+		<header>
+			
+					<ul>
+						<li class="caixa"><img src="logo3.jpeg" alt="logo da academia"></li>
+						<li class="links"><a href="index.html">Home</a></li>
+						<li class="links"><a href="produtos.html">Aulas</a></li>
+						<li class="links"><a href="aulas.html">Contato</a></li>
+					</ul>
+				
+		</header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" required class="input-padrao">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email"required placeholder="seuemail@dominio.com" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX" class="input-padrao">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+				<fieldset class="formularios">
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" class="formulario">Email</label>
+				
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="formulario"> Telefone</label>
+				
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked class="formulario">WhatsApp</label>
+									
+				</fieldset>
+
+				<fieldset class="formularios">
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox">
+					<input type="checkbox" checked>
+					Gostaria de receber nossas novidades por email?
+				</label>
+
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
+			</table>
+        </main>        
+        <footer>
+			<img src="logo-branco.jpg" alt="logo da academia">
+			<p class="copyright">&copy; Copyright Academia Alura - 2022</p>
+		</footer>
+	</body>
+</html>
+
